@@ -1,0 +1,55 @@
+.login {
+    height: calc(100vh - 50px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: 
+    url("images/computer3.jpg");
+    background-size: cover;
+}
+
+.loginTitle {
+    font-size: 50px;
+    color: white;
+}
+
+.loginForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginForm > label {
+    color: white;
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.loginForm > input {
+    padding: 10px;
+    background: white;
+    border: none;
+}
+
+.loginButton{
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.loginRegisterButton {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: teal;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}

@@ -19,7 +19,7 @@ export default function Topbar() {
             </div>
             <div className="topRight">
                 <img className="topImg"
-                    src="/images/ppic.jpg"
+                    src="/images/computer1.jpg"
                     //alt=""
                 />
                 <i className="topSearchIcon fa fa-search" aria-hidden="true"></i>
