@@ -12,12 +12,18 @@
 .loginTitle {
     font-size: 50px;
     color: white;
+    background-color: black;
+    padding: 20px;
+    border-style: none
 }
 
 .loginForm {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .loginForm > label {
@@ -42,6 +48,10 @@
     border-radius: 10px;
 }
 
+.loginButton:disabled {
+    cursor: not-allowed;
+    background-color: rgb(222, 240, 222);
+}
 .loginRegisterButton {
     position: absolute;
     top: 60px;
